@@ -14,7 +14,7 @@ df.groupBy("dept_id").max("salary").show()
 
 df.filter(df.salary>60000).show()
 
-# COMMAND ----------
+# COMMAND ---------
 
 df.filter (df.experience>5).show()
 
