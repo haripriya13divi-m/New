@@ -10,7 +10,7 @@ df = spark.read.csv('/Workspace/Users/haripriya13divi@gmail.com/New File 2026-06
 
 df.groupBy("dept_id").max("salary").show()
 
-# COMMAND ----------
+# COMMAND --------
 
 df.filter(df.salary>60000).show()
 
